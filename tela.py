@@ -7,7 +7,7 @@ class TelaPython:
     def __init__(self):
         # Layout
         layout = [
-            [sg.Text("Atualizar Power BI", justification='center', font=('Helvetica', 14), size=(20, 1))],
+            [sg.Text("Atualizar Power BI", justification='center', font=('Helvetica', 14), size=(20, 1), pad=((0, 0), (20,0)))],
             [sg.Button('Atualizar', size=(20, 3), font=('Helvetica', 12, 'bold'), button_color=('#ffffff', '#505050'), border_width=0, pad=(50, 50), key='-ATUALIZAR-')]
         ]
         # Janela
